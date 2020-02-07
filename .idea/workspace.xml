@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zx/linkedlist/DoubleLinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/linkedlist/Josephu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,20 +20,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zx/linkedlist/SingleLinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="204" column="5" lean-forward="true" selection-start-line="179" selection-start-column="4" selection-end-line="204" selection-end-column="5" />
+            <state relative-caret-position="5656">
+              <caret line="204" column="5" selection-start-line="179" selection-start-column="4" selection-end-line="204" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/linkedlist/DoubleLinkedListDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="601">
+              <caret line="113" column="45" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/linkedlist/DoubleLinkedListDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/linkedlist/Josephu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2828">
-              <caret line="113" column="45" lean-forward="true" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
+            <state relative-caret-position="161">
+              <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
               <folding>
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#1938#1939#0" expanded="true" />
+                <element signature="e#1966#1967#0" expanded="true" />
+                <element signature="e#1992#1993#0" expanded="true" />
+                <element signature="e#2017#2018#0" expanded="true" />
+                <element signature="e#2050#2051#0" expanded="true" />
+                <element signature="e#2078#2079#0" expanded="true" />
+                <element signature="e#2106#2107#0" expanded="true" />
+                <element signature="e#2133#2134#0" expanded="true" />
+                <element signature="e#2170#2171#0" expanded="true" />
+                <element signature="e#2202#2203#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/com/zx/linkedlist/TestStack.java" />
         <option value="$PROJECT_DIR$/src/com/zx/linkedlist/SingleLinkedListDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zx/linkedlist/DoubleLinkedListDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/linkedlist/Josephu.java" />
       </list>
     </option>
   </component>
@@ -92,8 +110,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="979" />
-    <option name="height" value="1049" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -103,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -157,6 +174,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,20 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DoubleLinkedListDemo">
-    <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.queue.ArrayQueueDemo" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Josephu">
     <configuration name="CircleArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.queue.CircleArrayQueueDemo" />
       <module name="DataStructures" />
@@ -215,6 +220,19 @@
     </configuration>
     <configuration name="DoubleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.linkedlist.DoubleLinkedListDemo" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Josephu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.linkedlist.Josephu" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -254,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Josephu" />
         <item itemvalue="Application.DoubleLinkedListDemo" />
         <item itemvalue="Application.SingleLinkedListDemo" />
         <item itemvalue="Application.TestStack" />
         <item itemvalue="Application.CircleArrayQueueDemo" />
-        <item itemvalue="Application.ArrayQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +293,8 @@
       <workItem from="1580618034827" duration="5149000" />
       <workItem from="1580787630495" duration="5269000" />
       <workItem from="1580813132837" duration="6891000" />
-      <workItem from="1581055623576" duration="4348000" />
+      <workItem from="1581055623576" duration="4475000" />
+      <workItem from="1581078339177" duration="3352000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -298,17 +317,24 @@
       <option name="project" value="LOCAL" />
       <updated>1581062679607</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="双向链表">
+      <created>1581065819743</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581065819743</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21657000" />
+    <option name="totallyTimeSpent" value="25136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16621985" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16823056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -317,7 +343,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2719547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1713881" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -350,7 +376,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="数据结构" />
     <MESSAGE value="栈结构加逆序打印链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="栈结构加逆序打印链表" />
+    <MESSAGE value="双向链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="双向链表" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/zx/queue/ArrayQueueDemo.java">
@@ -374,6 +401,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/linkedlist/SingleLinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5656">
+          <caret line="204" column="5" selection-start-line="179" selection-start-column="4" selection-end-line="204" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/queue/CircleArrayQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -381,20 +415,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/linkedlist/SingleLinkedListDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zx/linkedlist/DoubleLinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="204" column="5" lean-forward="true" selection-start-line="179" selection-start-column="4" selection-end-line="204" selection-end-column="5" />
+        <state relative-caret-position="601">
+          <caret line="113" column="45" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/linkedlist/DoubleLinkedListDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zx/linkedlist/Josephu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2828">
-          <caret line="113" column="45" lean-forward="true" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
+        <state relative-caret-position="161">
+          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
           <folding>
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#1992#1993#0" expanded="true" />
+            <element signature="e#2017#2018#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+            <element signature="e#2078#2079#0" expanded="true" />
+            <element signature="e#2106#2107#0" expanded="true" />
+            <element signature="e#2133#2134#0" expanded="true" />
+            <element signature="e#2170#2171#0" expanded="true" />
+            <element signature="e#2202#2203#0" expanded="true" />
           </folding>
         </state>
       </provider>
