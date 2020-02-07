@@ -1,5 +1,7 @@
 package com.zx.linkedlist;
 
+import java.util.Stack;
+
 /**
  * @author ZhangXiong
  * @version v12.0.1
@@ -51,8 +53,29 @@ public class SingleLinkedListDemo {
         //测试得到倒数第k个节点
         HeroNode res = findlastIndexNode(singleLinkedList.getHead(), 2);
         System.out.println("res=" + res);
+        //测试逆序打印，没有改变链表本身结构
+        reversePrint(singleLinkedList.getHead());
+
     }
 
+    //使用方式2，利用栈结构将链表逆序打印
+    public static void reversePrint(HeroNode head){
+        if (head.next ==null){
+            return;//空链表，不能打印
+        }
+        //创建一个栈，将各个节点压入栈
+        Stack<HeroNode> stack = new Stack<>();
+        HeroNode cur = head.next;
+        //将链表的所有节点压入栈
+        while (cur != null){
+            stack.push(cur);
+            cur = cur.next;
+        }
+        //将栈中节点弹出，打印
+        while (stack.size() > 0){
+            System.out.println(stack.pop());
+        }
+    }
     //将单链表反转
     public static void reverseList(HeroNode head){
         //如果当前链表为空，或者只有一个节点，无需反转，直接返回
