@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zx/recursion/MiGong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/recursion/Queen8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/recursion/RecursionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/sort/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,28 +22,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/stack/ArrayStackDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/sort/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="109" selection-start-line="54" selection-end-line="109" />
+            <state relative-caret-position="308">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/stack/Caculator.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/sort/SelectSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/stack/PolandNotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="321">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,28 +43,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/recursion/RecursionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/sort/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="351">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/recursion/MiGong.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/sort/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="37">
+              <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/recursion/Queen8.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-196">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="429">
+              <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -108,6 +101,11 @@
         <option value="$PROJECT_DIR$/src/com/zx/recursion/RecursionTest.java" />
         <option value="$PROJECT_DIR$/src/com/zx/recursion/MiGong.java" />
         <option value="$PROJECT_DIR$/src/com/zx/recursion/Queen8.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/sort/InsertSort.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/sort/SelectSort.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/sort/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -129,8 +127,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="951" />
+    <option name="y" value="-9" />
     <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -165,7 +164,7 @@
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,13 +213,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Queen8">
-    <configuration name="Caculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.stack.Caculator" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.sort.BubbleSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.stack.*" />
+          <option name="PATTERN" value="com.zx.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiGong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.recursion.MiGong" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.sort.InsertSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.recursion.*" />
+          <option name="PATTERN" value="com.zx.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.stack.PolandNotation" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.sort.QuickSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.stack.*" />
+          <option name="PATTERN" value="com.zx.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queen8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.recursion.Queen8" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.sort.SelectSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.recursion.*" />
+          <option name="PATTERN" value="com.zx.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,12 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.recursion.RecursionTest" />
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.sort.ShellSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.recursion.*" />
+          <option name="PATTERN" value="com.zx.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Queen8" />
-        <item itemvalue="Application.MiGong" />
-        <item itemvalue="Application.RecursionTest" />
-        <item itemvalue="Application.PolandNotation" />
-        <item itemvalue="Application.Caculator" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.ShellSort" />
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.SelectSort" />
+        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +306,8 @@
       <workItem from="1581078339177" duration="3427000" />
       <workItem from="1581141378413" duration="3722000" />
       <workItem from="1581314710387" duration="7888000" />
-      <workItem from="1581505790762" duration="5434000" />
+      <workItem from="1581505790762" duration="7335000" />
+      <workItem from="1581653109368" duration="10456000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -358,18 +358,25 @@
       <option name="project" value="LOCAL" />
       <updated>1581322671386</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="递归算法 打印 阶乘 迷宫问题 8皇后问题">
+      <created>1581511509650</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581511509650</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42255000" />
+    <option name="totallyTimeSpent" value="54612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.65106386" visible="true" weight="0.21782842" />
-      <window_info id="Structure" order="1" sideWeight="0.34893617" side_tool="true" visible="true" weight="0.21782842" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6504673" visible="true" weight="0.22050938" />
+      <window_info id="Structure" order="1" sideWeight="0.34953272" side_tool="true" visible="true" weight="0.22050938" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -377,7 +384,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33427763" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24220963" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20538244" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,7 +421,8 @@
     <MESSAGE value="环形链表解决约瑟夫问题" />
     <MESSAGE value="数组模拟栈" />
     <MESSAGE value="利用栈进行中缀表达式和逆波兰表达式的计算" />
-    <option name="LAST_COMMIT_MESSAGE" value="利用栈进行中缀表达式和逆波兰表达式的计算" />
+    <MESSAGE value="递归算法 打印 阶乘 迷宫问题 8皇后问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归算法 打印 阶乘 迷宫问题 8皇后问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/zx/queue/ArrayQueueDemo.java">
@@ -520,9 +528,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/stack/ReversePolishMultiCalc.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/zx/recursion/RecursionTestTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/zx/stack/ArrayStackDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="2940">
           <caret line="109" selection-start-line="54" selection-end-line="109" />
         </state>
       </provider>
@@ -536,7 +545,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/stack/PolandNotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="112">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -544,16 +553,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/recursion/RecursionTestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/recursion/RecursionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
+        <state relative-caret-position="336">
           <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
@@ -561,14 +563,52 @@
     <entry file="file://$PROJECT_DIR$/src/com/zx/recursion/MiGong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/recursion/Queen8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="448">
+          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/sort/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/sort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/sort/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
         </state>
       </provider>
     </entry>
