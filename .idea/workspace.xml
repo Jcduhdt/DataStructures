@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zx/search/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/search/SeqSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/search/FibonacciSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/search/InsertSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,15 +27,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zx/search/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="2382">
+              <caret line="94" column="1" lean-forward="true" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1824#1833#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/search/InsertSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/search/FibonacciSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -82,6 +100,8 @@
         <option value="$PROJECT_DIR$/src/com/zx/sort/RadixSort.java" />
         <option value="$PROJECT_DIR$/src/com/zx/search/SeqSearch.java" />
         <option value="$PROJECT_DIR$/src/com/zx/search/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/search/InsertSearch.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/search/FibonacciSearch.java" />
       </list>
     </option>
   </component>
@@ -189,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.FibonacciSearch">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.search.BinarySearch" />
       <module name="DataStructures" />
@@ -203,12 +223,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.sort.MergeSort" />
+    <configuration name="FibonacciSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.search.FibonacciSearch" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.sort.*" />
+          <option name="PATTERN" value="com.zx.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,12 +236,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergetSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.sort.MergetSort" />
+    <configuration name="InsertSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.search.InsertSearch" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.sort.*" />
+          <option name="PATTERN" value="com.zx.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciSearch" />
+        <item itemvalue="Application.InsertSearch" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SeqSearch" />
         <item itemvalue="Application.RadixSort" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.MergetSort" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +305,7 @@
       <workItem from="1581505790762" duration="7335000" />
       <workItem from="1581653109368" duration="11314000" />
       <workItem from="1581738068811" duration="4734000" />
-      <workItem from="1581825823950" duration="2595000" />
+      <workItem from="1581825823950" duration="6690000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -357,18 +377,25 @@
       <option name="project" value="LOCAL" />
       <updated>1581742613187</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="查找算法 线性查找 二分查找(数列有序)">
+      <created>1581828560412</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581828560412</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62799000" />
+    <option name="totallyTimeSpent" value="66894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.64663464" visible="true" weight="0.22587131" />
-      <window_info id="Structure" order="1" sideWeight="0.3533654" side_tool="true" visible="true" weight="0.22587131" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.64859" visible="true" weight="0.22587131" />
+      <window_info id="Structure" order="1" sideWeight="0.35140997" side_tool="true" visible="true" weight="0.22587131" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -376,8 +403,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41076487" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.20538244" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26345608" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34702548" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -416,7 +443,20 @@
     <MESSAGE value="递归算法 打印 阶乘 迷宫问题 8皇后问题" />
     <MESSAGE value="排序算法 冒泡 选择 插入 希尔 快排" />
     <MESSAGE value="排序算法 归并排序 基数排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="排序算法 归并排序 基数排序" />
+    <MESSAGE value="查找算法 线性查找 二分查找(数列有序)" />
+    <option name="LAST_COMMIT_MESSAGE" value="查找算法 线性查找 二分查找(数列有序)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zx/search/FibonacciSearch.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/zx/queue/ArrayQueueDemo.java">
@@ -629,12 +669,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/search/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="2382">
+          <caret line="94" column="1" lean-forward="true" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1824#1833#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/search/InsertSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/search/FibonacciSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
         </state>
       </provider>
     </entry>
