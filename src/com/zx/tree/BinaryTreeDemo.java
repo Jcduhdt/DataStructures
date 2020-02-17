@@ -30,6 +30,30 @@ public class BinaryTreeDemo {
         binaryTree.infixOrder();
         System.out.println("后序遍历");//2 5 4 3 1
         binaryTree.postOrder();
+        //测试查找
+        System.out.println("前序遍历查找测试");//4次
+        HeroNode resNode = binaryTree.preOrderSearch(5);
+        if (resNode != null){
+            System.out.printf("找到了，信息为no=%d name=%s\n",resNode.getNo(),resNode.getName());
+        }else {
+            System.out.printf("没有找到no=%d的英雄",5);
+        }
+
+        System.out.println("中序查找遍历测试");//3次
+        resNode = binaryTree.infixOrderSearch(5);
+        if (resNode != null){
+            System.out.printf("找到了，信息为no=%d name=%s\n",resNode.getNo(),resNode.getName());
+        }else {
+            System.out.printf("没有找到no=%d的英雄",5);
+        }
+
+        System.out.println("后序查找遍历测试");//2次
+        resNode = binaryTree.postOrderSearch(5);
+        if (resNode != null){
+            System.out.printf("找到了，信息为no=%d name=%s\n",resNode.getNo(),resNode.getName());
+        }else {
+            System.out.printf("没有找到no=%d的英雄",5);
+        }
     }
 }
 
@@ -64,6 +88,30 @@ class BinaryTree{
             this.root.postOrder();
         }else {
             System.out.println("二叉树为空，无法遍历");
+        }
+    }
+    //前序遍历查找
+    public HeroNode preOrderSearch(int no){
+        if (root != null){
+            return root.preOrderSearch(no);
+        }else {
+            return null;
+        }
+    }
+    //中序遍历查找
+    public HeroNode infixOrderSearch(int no){
+        if (root != null){
+            return root.infixOrderSearch(no);
+        }else {
+            return null;
+        }
+    }
+    //后序遍历查找
+    public HeroNode postOrderSearch(int no){
+        if (root != null){
+            return root.postOrderSearch(no);
+        }else {
+            return null;
         }
     }
 }
@@ -156,5 +204,77 @@ class HeroNode{
         }
         //输出父节点
         System.out.println(this);
+    }
+    //前序遍历查找
+    public HeroNode preOrderSearch(int no){
+        //比较当前节点是不是
+        if (this.no == no){
+            return this;
+        }
+        //1.判断当前节点的左子节点是否为空，如果不为空，则递归前序查找
+        //2.如果左递归前序查找，找到节点则返回
+        HeroNode resNode = null;
+        if (this.left != null){
+            resNode = this.left.preOrderSearch(no);
+        }
+        if (resNode != null){
+            return resNode;//若左子树找到
+        }
+        //1.判断当前节点的右子节点是否为空，如果不为空，则递归前序查找
+        //2.如果右递归前序查找，找到节点则返回
+        if (this.right != null){
+            resNode = this.right.preOrderSearch(no);
+        }
+        return resNode;
+    }
+
+    //中序遍历查找
+    public HeroNode infixOrderSearch(int no){
+        //1.判断当前节点的左子节点是否为空，如果不为空，则递归中序查找
+        //2.如果左递归中序查找，找到节点则返回
+        HeroNode resNode = null;
+        if (this.left != null){
+            resNode = this.left.infixOrderSearch(no);
+        }
+        if (resNode != null){
+            return resNode;//若左子树找到
+        }
+        //比较当前节点是不是
+        if (this.no == no){
+            return this;
+        }
+        //1.判断当前节点的右子节点是否为空，如果不为空，则递归中序查找
+        //2.如果右递归中序查找，找到节点则返回
+        if (this.right != null){
+            resNode = this.right.infixOrderSearch(no);
+        }
+        return resNode;
+    }
+
+    //后序遍历查找
+    public HeroNode postOrderSearch(int no){
+        //1.判断当前节点的左子节点是否为空，如果不为空，则递归后序查找
+        //2.如果左递归后序查找，找到节点则返回
+        HeroNode resNode = null;
+        if (this.left != null){
+            resNode = this.left.postOrderSearch(no);
+        }
+        if (resNode != null){
+            return resNode;//若左子树找到
+        }
+        //1.判断当前节点的右子节点是否为空，如果不为空，则递归后序查找
+        //2.如果右递归后序查找，找到节点则返回
+        if (this.right != null){
+            resNode = this.right.postOrderSearch(no);
+        }
+        if (resNode != null){
+            return resNode;//若左子树找到
+        }
+        //若左右子树均未找到比较当前节点是不是
+        if (this.no == no){
+            return this;
+        }else {
+            return resNode;
+        }
     }
 }
