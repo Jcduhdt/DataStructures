@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zx/tree/ArrBinaryTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/tree/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/META-INF/DataStructures.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,49 +18,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/tree/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1166">
-              <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-              <folding>
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#2205#2206#0" expanded="true" />
-                <element signature="e#2236#2237#0" expanded="true" />
-                <element signature="e#2281#2282#0" expanded="true" />
-                <element signature="e#2321#2322#0" expanded="true" />
-                <element signature="e#2354#2355#0" expanded="true" />
-                <element signature="e#2386#2387#0" expanded="true" />
-                <element signature="e#2433#2434#0" expanded="true" />
-                <element signature="e#2475#2476#0" expanded="true" />
-                <element signature="e#2599#2600#0" expanded="true" />
-                <element signature="e#2624#2625#0" expanded="true" />
-                <element signature="e#2657#2658#0" expanded="true" />
-                <element signature="e#2685#2686#0" expanded="true" />
-                <element signature="e#2716#2717#0" expanded="true" />
-                <element signature="e#2743#2744#0" expanded="true" />
-                <element signature="e#2783#2784#0" expanded="true" />
-                <element signature="e#2815#2816#0" expanded="true" />
-                <element signature="e#2848#2849#0" expanded="true" />
-                <element signature="e#2875#2876#0" expanded="true" />
-                <element signature="e#2917#2918#0" expanded="true" />
-                <element signature="e#2949#2950#0" expanded="true" />
-                <element signature="e#2983#2984#0" expanded="true" />
-                <element signature="e#3011#3012#0" expanded="true" />
-                <element signature="e#3055#3056#0" expanded="true" />
-                <element signature="e#3089#3090#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="308">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/tree/BinaryTreeDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/sort/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="135" column="1" lean-forward="true" selection-start-line="66" selection-end-line="135" selection-end-column="1" />
+            <state relative-caret-position="168">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="23" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -116,6 +84,7 @@
         <option value="$PROJECT_DIR$/src/com/zx/tree/BinaryTreeDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zx/tree/ArrBinaryTreeDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zx/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/tree/HeapSort.java" />
       </list>
     </option>
   </component>
@@ -173,7 +142,7 @@
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
@@ -181,15 +150,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="threadedbinarytree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTreeDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -239,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadedBinaryTreeDemo">
+  <component name="RunManager" selected="Application.HeapSort">
     <configuration name="ArrBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.tree.ArrBinaryTreeDemo" />
       <module name="DataStructures" />
@@ -266,12 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.search.FibonacciSearch" />
+    <configuration name="HashTabDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.hashTab.HashTabDemo" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.search.*" />
+          <option name="PATTERN" value="com.zx.hashTab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,12 +239,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTabDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.hashTab.HashTabDemo" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.tree.HeapSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.hashTab.*" />
+          <option name="PATTERN" value="com.zx.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.ThreadedBinaryTreeDemo" />
         <item itemvalue="Application.ArrBinaryTreeDemo" />
         <item itemvalue="Application.BinaryTreeDemo" />
         <item itemvalue="Application.HashTabDemo" />
-        <item itemvalue="Application.FibonacciSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +298,9 @@
       <workItem from="1581825823950" duration="7372000" />
       <workItem from="1581921210137" duration="7382000" />
       <workItem from="1581938671618" duration="2212000" />
-      <workItem from="1582000853262" duration="9783000" />
+      <workItem from="1582000853262" duration="10432000" />
+      <workItem from="1582028900301" duration="1755000" />
+      <workItem from="1582031498270" duration="2215000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -452,18 +414,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582005467401</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="树 二叉树 顺序二叉树 线索化二叉树">
+      <created>1582012486668</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1582012486668</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86953000" />
+    <option name="totallyTimeSpent" value="91572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.64449066" visible="true" weight="0.23525469" />
-      <window_info id="Structure" order="1" sideWeight="0.35550934" side_tool="true" visible="true" weight="0.23525469" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.64069265" visible="true" weight="0.2419571" />
+      <window_info id="Structure" order="1" sideWeight="0.35930735" side_tool="true" visible="true" weight="0.2419571" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -471,8 +440,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3186969" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34702548" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25070822" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34560907" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -517,7 +486,8 @@
     <MESSAGE value="树 二叉树" />
     <MESSAGE value="树 二叉树 增加前中后序查找方法" />
     <MESSAGE value="树 二叉树 增加简单的删除节点方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="树 二叉树 增加简单的删除节点方法" />
+    <MESSAGE value="树 二叉树 顺序二叉树 线索化二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="树 二叉树 顺序二叉树 线索化二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -681,13 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/sort/SelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -795,47 +758,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/BinaryTreeDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="135" column="1" lean-forward="true" selection-start-line="66" selection-end-line="135" selection-end-column="1" />
+        <state relative-caret-position="354">
+          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/BinaryTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-          <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#2205#2206#0" expanded="true" />
-            <element signature="e#2236#2237#0" expanded="true" />
-            <element signature="e#2281#2282#0" expanded="true" />
-            <element signature="e#2321#2322#0" expanded="true" />
-            <element signature="e#2354#2355#0" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-            <element signature="e#2433#2434#0" expanded="true" />
-            <element signature="e#2475#2476#0" expanded="true" />
-            <element signature="e#2599#2600#0" expanded="true" />
-            <element signature="e#2624#2625#0" expanded="true" />
-            <element signature="e#2657#2658#0" expanded="true" />
-            <element signature="e#2685#2686#0" expanded="true" />
-            <element signature="e#2716#2717#0" expanded="true" />
-            <element signature="e#2743#2744#0" expanded="true" />
-            <element signature="e#2783#2784#0" expanded="true" />
-            <element signature="e#2815#2816#0" expanded="true" />
-            <element signature="e#2848#2849#0" expanded="true" />
-            <element signature="e#2875#2876#0" expanded="true" />
-            <element signature="e#2917#2918#0" expanded="true" />
-            <element signature="e#2949#2950#0" expanded="true" />
-            <element signature="e#2983#2984#0" expanded="true" />
-            <element signature="e#3011#3012#0" expanded="true" />
-            <element signature="e#3055#3056#0" expanded="true" />
-            <element signature="e#3089#3090#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="3724">
+          <caret line="135" column="1" selection-start-line="66" selection-end-line="135" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="23" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
         </state>
       </provider>
     </entry>
