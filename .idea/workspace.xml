@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zx/huffmancode/HuffmanCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/huffmantree/HuffmanTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zx/huffmancode/HuffmanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zx/huffmancode/HuffmanCode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,10 +35,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zx/huffmancode/HuffmanCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="-392">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
-                <element signature="e#775#789#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2773#2779#0" expanded="true" />
+                <element signature="e#2026#2040#0" expanded="true" />
                 <element signature="e#1523#1524#0" expanded="true" />
                 <element signature="e#1576#1577#0" expanded="true" />
               </folding>
@@ -315,7 +316,7 @@
       <workItem from="1582000853262" duration="10432000" />
       <workItem from="1582028900301" duration="1755000" />
       <workItem from="1582031498270" duration="2274000" />
-      <workItem from="1582084157811" duration="6597000" />
+      <workItem from="1582084157811" duration="16943000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -443,18 +444,32 @@
       <option name="project" value="LOCAL" />
       <updated>1582034505479</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="树结构的应用 哈夫曼树 哈夫曼编码">
+      <created>1582092143847</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1582092143847</updated>
+    </task>
+    <task id="LOCAL-00020" summary="树结构的应用 哈夫曼编码优化 解压">
+      <created>1582102915079</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1582102915079</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98228000" />
+    <option name="totallyTimeSpent" value="108574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.63919413" visible="true" weight="0.24530831" />
-      <window_info id="Structure" order="1" sideWeight="0.36080587" side_tool="true" visible="true" weight="0.24530831" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.63893807" visible="true" weight="0.24530831" />
+      <window_info id="Structure" order="1" sideWeight="0.36106196" side_tool="true" visible="true" weight="0.24530831" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -462,7 +477,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2266289" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.19971672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34560907" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,7 +486,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.2266289" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Run with VisualVM" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
@@ -510,7 +525,9 @@
     <MESSAGE value="树 二叉树 增加简单的删除节点方法" />
     <MESSAGE value="树 二叉树 顺序二叉树 线索化二叉树" />
     <MESSAGE value="树结构的应用 堆排序 大顶堆 小顶堆" />
-    <option name="LAST_COMMIT_MESSAGE" value="树结构的应用 堆排序 大顶堆 小顶堆" />
+    <MESSAGE value="树结构的应用 哈夫曼树 哈夫曼编码" />
+    <MESSAGE value="树结构的应用 哈夫曼编码优化 解压" />
+    <option name="LAST_COMMIT_MESSAGE" value="树结构的应用 哈夫曼编码优化 解压" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -831,10 +848,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/huffmancode/HuffmanCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="-392">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
-            <element signature="e#775#789#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2773#2779#0" expanded="true" />
+            <element signature="e#2026#2040#0" expanded="true" />
             <element signature="e#1523#1524#0" expanded="true" />
             <element signature="e#1576#1577#0" expanded="true" />
           </folding>

@@ -1,6 +1,7 @@
 package com.zx.huffmancode;
 
 
+import java.io.*;
 import java.util.*;
 
 /**
@@ -17,7 +18,17 @@ public class HuffmanCode {
         byte[] huffmanCodesBytes = huffmanZip(contentBytes);
         System.out.println("压缩后结果 = " + Arrays.toString(huffmanCodesBytes) + "长度=" + huffmanCodesBytes.length);
         byte[] sourceBytes = decode(huffmanCodes, huffmanCodesBytes);
-        System.out.println("节码结果 = " + new String(sourceBytes));
+        System.out.println("解码结果 = " + new String(sourceBytes));
+        //测试压缩文件
+        String srcFile = "C:\\Users\\Zhang\\Pictures\\Saved Pictures\\src.jpg";
+        String dstFile = "E:\\dst.zip";
+        zipFile(srcFile,dstFile);
+        System.out.println("压缩完成");
+        //测试解压文件
+        String zipFile = "E:\\dst.zip";
+        String decFile = "E:\\decode.jpg";
+        unZipFile(zipFile,decFile);
+        System.out.println("解压完成");
         /*
         分步过程
         List<Node> nodes = getNodes(contentBytes);
@@ -49,10 +60,91 @@ public class HuffmanCode {
         return huffmanCodeBytes;
     }
 
+    /**
+     * 编写方法，将一个文件进行压缩
+     * 因为使用的是对象写入，所以在解压时直接读取对象就能把压缩数据和哈夫曼表读出
+     * @param srcFile 传入的希望压缩的文件全路径
+     * @param dstFile 压缩后将压缩的文件放到那个目录
+     */
+    public static void zipFile(String srcFile,String dstFile){
+        //创建输出流
+        OutputStream os = null;
+        ObjectOutputStream oos = null;
+        //创建文件输出流
+        FileInputStream is = null;
+        try{
+            is = new FileInputStream(srcFile);
+            byte[] b = new byte[is.available()];
+            //读取文件
+            is.read(b);
+            //直接对源文件压缩
+            byte[] huffmanBytes = huffmanZip(b);
+            //文件输出流，存放压缩文件
+            os = new FileOutputStream(dstFile);
+            //创建一个和文件输出流关联的ObjectOutputStream
+            oos = new ObjectOutputStream(os);
+            //把哈夫曼编码后的字节数组写入压缩文件
+            oos.writeObject(huffmanBytes);
+            //以对象流的方式写入哈夫曼编码，是为了以后恢复源文件时使用
+            //注意 一定要把哈夫曼编码表写入
+            oos.writeObject(huffmanCodes);
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }finally {
+            try {
+                is.close();
+                oos.close();
+                os.close();
+            }catch (Exception e){
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+
+    /**
+     * 完成对压缩文件的解压
+     * @param zipFile 要解压的文件路径
+     * @param dstFile 解压放置的路径
+     */
+    public static void unZipFile(String zipFile,String dstFile){
+        //定义文件输出流
+        InputStream is = null;
+        //定义一个对象输入流
+        ObjectInputStream ois = null;
+        //定义文件输出流
+        OutputStream os = null;
+        try{
+            //创建文件输入流
+            File file;
+            is = new FileInputStream(zipFile);
+            //创建一个和is关联的对象输入流
+            ois = new ObjectInputStream(is);
+            //读取byte数组 huffmanBytes
+            byte[] huffmanBytes = (byte[]) ois.readObject();
+            //读取哈夫曼编码表
+            Map<Byte,String> huffmanCodes = (Map<Byte,String>)ois.readObject();
+            //解码
+            byte[] bytes = decode(huffmanCodes, huffmanBytes);
+            //将bytes数组写入到目标文件
+            os = new FileOutputStream(dstFile);
+            //写数据到dstFile文件
+            os.write(bytes);
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }finally {
+            try{
+                os.close();
+                ois.close();
+                is.close();
+            }catch (Exception e){
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+
     //1.将huffmanCodeBytes[-88, -65, -56, -65, -56, -65, -55, 77, -57, 6, -24, -14, -117, -4, -60, -90, 28]
     //  重写转成哈夫曼编码对应的二进制01串
     //2.01串转成对应的字符串 i like ...
-
     /**
      *
      * @param huffmanCodes 哈夫曼编码表map
