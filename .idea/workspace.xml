@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/zx/binarysorttree/BinarySortTreeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zx/huffmancode/HuffmanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zx/huffmancode/HuffmanCode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,32 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/huffmantree/HuffmanTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#855#861#0" expanded="true" />
-                <element signature="e#2136#2137#0" expanded="true" />
-                <element signature="e#2170#2171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/huffmancode/HuffmanCode.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/binarysorttree/BinarySortTreeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-392">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="347">
+              <caret line="115" column="47" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2773#2779#0" expanded="true" />
-                <element signature="e#2026#2040#0" expanded="true" />
-                <element signature="e#1523#1524#0" expanded="true" />
-                <element signature="e#1576#1577#0" expanded="true" />
+                <element signature="e#3569#3570#0" expanded="true" />
+                <element signature="e#3603#3604#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/com/zx/tree/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/com/zx/huffmantree/HuffmanTree.java" />
         <option value="$PROJECT_DIR$/src/com/zx/huffmancode/HuffmanCode.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/binarysorttree/BinarySortTreeDemo.java" />
       </list>
     </option>
   </component>
@@ -133,7 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,20 +140,13 @@
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="huffmancode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="huffmantree" type="462c0819:PsiDirectoryNode" />
+              <item name="binarysorttree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,13 +190,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HuffmanCode">
-    <configuration name="ArrBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.tree.ArrBinaryTreeDemo" />
+  <component name="RunManager" selected="Application.BinarySortTreeDemo">
+    <configuration name="BinarySortTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.binarysorttree.BinarySortTreeDemo" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.tree.*" />
+          <option name="PATTERN" value="com.zx.binarysorttree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySortTreeDemo" />
         <item itemvalue="Application.HuffmanCode" />
         <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.ThreadedBinaryTreeDemo" />
-        <item itemvalue="Application.ArrBinaryTreeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +292,8 @@
       <workItem from="1582000853262" duration="10432000" />
       <workItem from="1582028900301" duration="1755000" />
       <workItem from="1582031498270" duration="2274000" />
-      <workItem from="1582084157811" duration="16943000" />
+      <workItem from="1582084157811" duration="17575000" />
+      <workItem from="1582172512751" duration="5036000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -458,18 +435,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582102915079</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="树结构的应用 使用哈夫曼编码对文件进行压缩与解压">
+      <created>1582118153726</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1582118153726</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108574000" />
+    <option name="totallyTimeSpent" value="114242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.63893807" visible="true" weight="0.24530831" />
-      <window_info id="Structure" order="1" sideWeight="0.36106196" side_tool="true" visible="true" weight="0.24530831" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6382536" visible="true" weight="0.24865952" />
+      <window_info id="Structure" order="1" sideWeight="0.36174637" side_tool="true" visible="true" weight="0.24865952" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -477,7 +461,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.19971672" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3186969" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34560907" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -527,7 +511,8 @@
     <MESSAGE value="树结构的应用 堆排序 大顶堆 小顶堆" />
     <MESSAGE value="树结构的应用 哈夫曼树 哈夫曼编码" />
     <MESSAGE value="树结构的应用 哈夫曼编码优化 解压" />
-    <option name="LAST_COMMIT_MESSAGE" value="树结构的应用 哈夫曼编码优化 解压" />
+    <MESSAGE value="树结构的应用 使用哈夫曼编码对文件进行压缩与解压" />
+    <option name="LAST_COMMIT_MESSAGE" value="树结构的应用 使用哈夫曼编码对文件进行压缩与解压" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -826,10 +811,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/huffmantree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zx/huffmantree.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/zx/huffmancode/HuffmanCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="28">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -839,23 +828,17 @@
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#855#861#0" expanded="true" />
-            <element signature="e#2136#2137#0" expanded="true" />
-            <element signature="e#2170#2171#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/huffmancode/HuffmanCode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zx/binarysorttree/BinarySortTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-392">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="347">
+          <caret line="115" column="47" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2773#2779#0" expanded="true" />
-            <element signature="e#2026#2040#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#3569#3570#0" expanded="true" />
+            <element signature="e#3603#3604#0" expanded="true" />
           </folding>
         </state>
       </provider>
