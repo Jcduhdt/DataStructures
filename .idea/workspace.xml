@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zx/binarysorttree/BinarySortTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/avl/AVLTreeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,11 +20,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zx/binarysorttree/BinarySortTreeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="115" column="47" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
+            <state relative-caret-position="4088">
+              <caret line="146" lean-forward="true" selection-start-line="34" selection-end-line="146" />
               <folding>
                 <element signature="e#3569#3570#0" expanded="true" />
                 <element signature="e#3603#3604#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/avl/AVLTreeDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="292" column="31" selection-start-line="292" selection-start-column="31" selection-end-line="292" selection-end-column="31" />
+              <folding>
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/com/zx/huffmantree/HuffmanTree.java" />
         <option value="$PROJECT_DIR$/src/com/zx/huffmancode/HuffmanCode.java" />
         <option value="$PROJECT_DIR$/src/com/zx/binarysorttree/BinarySortTreeDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/avl/AVLTreeDemo.java" />
       </list>
     </option>
   </component>
@@ -140,6 +158,13 @@
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="avl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
               <item name="binarysorttree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -190,7 +215,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySortTreeDemo">
+  <component name="RunManager" selected="Application.AVLTreeDemo">
+    <configuration name="AVLTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.avl.AVLTreeDemo" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.avl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinarySortTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.binarysorttree.BinarySortTreeDemo" />
       <module name="DataStructures" />
@@ -243,26 +281,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadedBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.tree.threadedbinarytree.ThreadedBinaryTreeDemo" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.tree.threadedbinarytree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AVLTreeDemo" />
         <item itemvalue="Application.BinarySortTreeDemo" />
         <item itemvalue="Application.HuffmanCode" />
         <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.ThreadedBinaryTreeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +318,7 @@
       <workItem from="1582028900301" duration="1755000" />
       <workItem from="1582031498270" duration="2274000" />
       <workItem from="1582084157811" duration="17575000" />
-      <workItem from="1582172512751" duration="5036000" />
+      <workItem from="1582172512751" duration="10019000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -442,18 +467,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582118153726</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="树结构的应用 二叉排序树 添加 遍历 删除 不过有些地方似乎没考虑周全">
+      <created>1582178069865</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1582178069865</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114242000" />
+    <option name="totallyTimeSpent" value="119225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6382536" visible="true" weight="0.24865952" />
-      <window_info id="Structure" order="1" sideWeight="0.36174637" side_tool="true" visible="true" weight="0.24865952" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6385965" visible="true" weight="0.24865952" />
+      <window_info id="Structure" order="1" sideWeight="0.3614035" side_tool="true" visible="true" weight="0.24865952" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -461,7 +493,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3186969" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.19263457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34560907" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -512,7 +544,8 @@
     <MESSAGE value="树结构的应用 哈夫曼树 哈夫曼编码" />
     <MESSAGE value="树结构的应用 哈夫曼编码优化 解压" />
     <MESSAGE value="树结构的应用 使用哈夫曼编码对文件进行压缩与解压" />
-    <option name="LAST_COMMIT_MESSAGE" value="树结构的应用 使用哈夫曼编码对文件进行压缩与解压" />
+    <MESSAGE value="树结构的应用 二叉排序树 添加 遍历 删除 不过有些地方似乎没考虑周全" />
+    <option name="LAST_COMMIT_MESSAGE" value="树结构的应用 二叉排序树 添加 遍历 删除 不过有些地方似乎没考虑周全" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -832,10 +865,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/avl/AVLTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="292" column="31" selection-start-line="292" selection-start-column="31" selection-end-line="292" selection-end-column="31" />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/binarysorttree/BinarySortTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="115" column="47" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
+        <state relative-caret-position="4088">
+          <caret line="146" lean-forward="true" selection-start-line="34" selection-end-line="146" />
           <folding>
             <element signature="e#3569#3570#0" expanded="true" />
             <element signature="e#3603#3604#0" expanded="true" />
