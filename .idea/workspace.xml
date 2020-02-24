@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zx/algorithm/dijkstra/DijkstraAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/algorithm/flloyd/FloydAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,27 +18,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dijkstra/DijkstraAlgorithm.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/flloyd/FloydAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="73" column="36" lean-forward="true" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
-              <folding>
-                <element signature="e#1299#1300#0" expanded="true" />
-                <element signature="e#3208#3209#0" expanded="true" />
-                <element signature="e#3378#3379#0" expanded="true" />
-                <element signature="e#3559#3560#0" expanded="true" />
-                <element signature="e#3681#3682#0" expanded="true" />
-                <element signature="e#3714#3715#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="112">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/kruskal/KruskalCase.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dijkstra/DijkstraAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4676">
-              <caret line="179" column="6" selection-start-line="179" selection-start-column="6" selection-end-line="179" selection-end-column="6" />
+            <state relative-caret-position="170">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="24" selection-end-column="51" />
+              <folding>
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#3162#3163#0" expanded="true" />
+                <element signature="e#3208#3209#0" expanded="true" />
+                <element signature="e#3346#3347#0" expanded="true" />
+                <element signature="e#3378#3379#0" expanded="true" />
+                <element signature="e#3519#3520#0" expanded="true" />
+                <element signature="e#3559#3560#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/prim/PrimAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/kruskal/KruskalCase.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dijkstra/DijkstraAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/algorithm/flloyd/FloydAlgorithm.java" />
       </list>
     </option>
   </component>
@@ -141,8 +144,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,6 +178,23 @@
               <item name="zx" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="dijkstra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="dijkstra" type="462c0819:PsiDirectoryNode" />
+              <item name="DijkstraAlgorithm.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="flloyd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
@@ -215,7 +235,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -240,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DijkstraAlgorithm">
+  <component name="RunManager" selected="Application.FloydAlgorithm">
     <configuration name="DijkstraAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dijkstra.DijkstraAlgorithm" />
       <module name="DataStructures" />
@@ -254,12 +274,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreedyAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.greedy.GreedyAlgorithm" />
+    <configuration name="FloydAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.flloyd.FloydAlgorithm" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.algorithm.greedy.*" />
+          <option name="PATTERN" value="com.zx.algorithm.flloyd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,12 +287,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KMPAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.kmp.KMPAlgorithm" />
+    <configuration name="GreedyAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.greedy.GreedyAlgorithm" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.algorithm.kmp.*" />
+          <option name="PATTERN" value="com.zx.algorithm.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FloydAlgorithm" />
         <item itemvalue="Application.DijkstraAlgorithm" />
         <item itemvalue="Application.KruskalCase" />
         <item itemvalue="Application.PrimAlgorithm" />
         <item itemvalue="Application.GreedyAlgorithm" />
-        <item itemvalue="Application.KMPAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +388,12 @@
       <workItem from="1582434847773" duration="252000" />
       <workItem from="1582435117561" duration="8374000" />
       <workItem from="1582446110306" duration="42000" />
-      <workItem from="1582453386316" duration="5588000" />
+      <workItem from="1582453386316" duration="5644000" />
+      <workItem from="1582461032901" duration="340000" />
+      <workItem from="1582461391480" duration="128000" />
+      <workItem from="1582510507462" duration="1850000" />
+      <workItem from="1582512695825" duration="461000" />
+      <workItem from="1582513172343" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -580,11 +605,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582444292251</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="算法 迪杰斯特拉算法 广度优先 最短路径">
+      <created>1582460769684</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1582460769684</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165454000" />
+    <option name="totallyTimeSpent" value="169791000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,8 +631,8 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.44723618" visible="true" weight="0.19571045" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5527638" side_tool="true" visible="true" weight="0.19571045" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43956044" visible="true" weight="0.21179625" />
+      <window_info id="Structure" order="1" sideWeight="0.5604396" side_tool="true" visible="true" weight="0.21179625" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -608,7 +640,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.15439093" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.2266289" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2082153" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -639,7 +671,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组模拟栈" />
     <MESSAGE value="利用栈进行中缀表达式和逆波兰表达式的计算" />
     <MESSAGE value="递归算法 打印 阶乘 迷宫问题 8皇后问题" />
     <MESSAGE value="排序算法 冒泡 选择 插入 希尔 快排" />
@@ -664,7 +695,8 @@
     <MESSAGE value="算法 源串找子串位子，kmp算法与暴力算法" />
     <MESSAGE value="算法 贪心算法 每次取最优" />
     <MESSAGE value="算法 普里姆算法 克鲁斯卡尔算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法 普里姆算法 克鲁斯卡尔算法" />
+    <MESSAGE value="算法 迪杰斯特拉算法 广度优先 最短路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法 迪杰斯特拉算法 广度优先 最短路径" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -679,13 +711,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zx/linkedlist/SingleLinkedListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5656">
-          <caret line="204" column="5" selection-start-line="179" selection-start-column="4" selection-end-line="204" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/linkedlist/DoubleLinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3108">
@@ -1052,23 +1077,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/kruskal/KruskalCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4676">
+        <state relative-caret-position="5012">
           <caret line="179" column="6" selection-start-line="179" selection-start-column="6" selection-end-line="179" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dijkstra/DijkstraAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="73" column="36" lean-forward="true" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+        <state relative-caret-position="170">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="24" selection-end-column="51" />
           <folding>
+            <element signature="e#1274#1275#0" expanded="true" />
             <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#3162#3163#0" expanded="true" />
             <element signature="e#3208#3209#0" expanded="true" />
+            <element signature="e#3346#3347#0" expanded="true" />
             <element signature="e#3378#3379#0" expanded="true" />
+            <element signature="e#3519#3520#0" expanded="true" />
             <element signature="e#3559#3560#0" expanded="true" />
-            <element signature="e#3681#3682#0" expanded="true" />
-            <element signature="e#3714#3715#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/flloyd/FloydAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
