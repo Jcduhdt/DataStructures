@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zx/algorithm/horse/HorseChessboard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/horse/HorseChessboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+            <state relative-caret-position="216">
+              <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,7 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zx/sparearray/SparseArray.java" />
         <option value="$PROJECT_DIR$/src/com/zx/queue/ArrayQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zx/queue/CircleArrayQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zx/linkedlist/SingleLinkedList.java" />
@@ -96,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dijkstra/DijkstraAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/flloyd/FloydAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/horse/HorseChessboard.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/StrMatch.java" />
       </list>
     </option>
   </component>
@@ -116,10 +115,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="y" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1050" />
+    <option name="x" value="721" />
+    <option name="y" value="10" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -130,7 +129,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,12 +160,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="horse" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HorseChessboard">
+  <component name="RunManager" selected="Application.StrMatch">
     <configuration name="DijkstraAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dijkstra.DijkstraAlgorithm" />
       <module name="DataStructures" />
@@ -264,12 +263,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.prim.PrimAlgorithm" />
+    <configuration name="StrMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dynamic.StrMatch" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.algorithm.prim.*" />
+          <option name="PATTERN" value="com.zx.algorithm.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,11 +278,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrMatch" />
         <item itemvalue="Application.HorseChessboard" />
         <item itemvalue="Application.FloydAlgorithm" />
         <item itemvalue="Application.DijkstraAlgorithm" />
         <item itemvalue="Application.KruskalCase" />
-        <item itemvalue="Application.PrimAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +343,10 @@
       <workItem from="1582461391480" duration="128000" />
       <workItem from="1582510507462" duration="1850000" />
       <workItem from="1582512695825" duration="461000" />
-      <workItem from="1582513172343" duration="7610000" />
+      <workItem from="1582513172343" duration="7666000" />
+      <workItem from="1582523257031" duration="23000" />
+      <workItem from="1582547786930" duration="15000" />
+      <workItem from="1582983570699" duration="3145000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -570,11 +572,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582514757152</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="算法 骑士周游问题 使用贪心算法优化">
+      <created>1582522939414</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1582522939414</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175899000" />
+    <option name="totallyTimeSpent" value="179138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,8 +598,8 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74563104" visible="true" weight="0.21179625" />
-      <window_info id="Structure" order="1" sideWeight="0.25436893" side_tool="true" visible="true" weight="0.21179625" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73938227" visible="true" weight="0.09115282" />
+      <window_info id="Structure" order="1" sideWeight="0.26061776" side_tool="true" visible="true" weight="0.09115282" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -598,8 +607,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.27053824" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2082153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.27053824" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26628897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -629,7 +638,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="递归算法 打印 阶乘 迷宫问题 8皇后问题" />
     <MESSAGE value="排序算法 冒泡 选择 插入 希尔 快排" />
     <MESSAGE value="排序算法 归并排序 基数排序" />
     <MESSAGE value="查找算法 线性查找 二分查找(数列有序)" />
@@ -654,7 +662,8 @@
     <MESSAGE value="算法 普里姆算法 克鲁斯卡尔算法" />
     <MESSAGE value="算法 迪杰斯特拉算法 广度优先 最短路径" />
     <MESSAGE value="算法 佛洛依德算法 每个顶点间的最短路径 三层for循环" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法 佛洛依德算法 每个顶点间的最短路径 三层for循环" />
+    <MESSAGE value="算法 骑士周游问题 使用贪心算法优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法 骑士周游问题 使用贪心算法优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -669,17 +678,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zx/linkedlist/Josephu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
-          <folding>
-            <element signature="e#3318#3319#0" expanded="true" />
-            <element signature="e#3343#3344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/queue/CircleArrayQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -687,9 +685,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Java资料/尚硅谷数据结构算法/代码/DataStructures/src/com/atguigu/stack/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://E:/Java资料/尚硅谷数据结构算法/代码/DataStructures/src/com/atguigu/stack/Calculator.java" />
     <entry file="jar://$PROJECT_DIR$/../../Jdk/lib/src.zip!/java.base/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1057,10 +1053,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/StrMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/horse/HorseChessboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+        <state relative-caret-position="216">
+          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
