@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/StrMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/LongestValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,11 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/CoinChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+            <state relative-caret-position="1372">
+              <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/LongestValidParentheses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -61,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zx/queue/CircleArrayQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zx/linkedlist/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/zx/linkedlist/TestStack.java" />
         <option value="$PROJECT_DIR$/src/com/zx/linkedlist/SingleLinkedListDemo.java" />
@@ -112,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/horse/HorseChessboard.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/StrMatch.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/CoinChange.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/LongestValidParentheses.java" />
       </list>
     </option>
   </component>
@@ -132,8 +141,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="720" />
-    <option name="y" value="10" />
+    <option name="x" value="50" />
+    <option name="y" value="176" />
     <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
@@ -227,26 +236,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CoinChange">
+  <component name="RunManager" selected="Application.LongestValidParentheses">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dynamic.CoinChange" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zx.algorithm.dynamic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DijkstraAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dijkstra.DijkstraAlgorithm" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.algorithm.dijkstra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,6 +276,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dynamic.LongestValidParentheses" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.algorithm.dynamic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StrMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dynamic.StrMatch" />
       <module name="DataStructures" />
@@ -295,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestValidParentheses" />
         <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.StrMatch" />
         <item itemvalue="Application.HorseChessboard" />
         <item itemvalue="Application.FloydAlgorithm" />
-        <item itemvalue="Application.DijkstraAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +373,7 @@
       <workItem from="1582523257031" duration="23000" />
       <workItem from="1582547786930" duration="15000" />
       <workItem from="1582983570699" duration="3206000" />
-      <workItem from="1583672173829" duration="1068000" />
+      <workItem from="1583672173829" duration="2629000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -604,11 +613,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582986925386</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="leedcode 动态规划">
+      <created>1583673287666</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1583673287666</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180267000" />
+    <option name="totallyTimeSpent" value="181828000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -664,7 +680,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="排序算法 归并排序 基数排序" />
     <MESSAGE value="查找算法 线性查找 二分查找(数列有序)" />
     <MESSAGE value="查找算法 插入查找(二分查找的基础上改进) 斐波那契查找" />
     <MESSAGE value="数据结构 哈希表" />
@@ -689,7 +704,8 @@
     <MESSAGE value="算法 佛洛依德算法 每个顶点间的最短路径 三层for循环" />
     <MESSAGE value="算法 骑士周游问题 使用贪心算法优化" />
     <MESSAGE value="leedcode 正则匹配 动态规划" />
-    <option name="LAST_COMMIT_MESSAGE" value="leedcode 正则匹配 动态规划" />
+    <MESSAGE value="leedcode 动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value="leedcode 动态规划" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -704,7 +720,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/Java资料/尚硅谷数据结构算法/代码/DataStructures/src/com/atguigu/stack/Calculator.java" />
     <entry file="jar://$PROJECT_DIR$/../../Jdk/lib/src.zip!/java.base/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1091,8 +1106,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/CoinChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+        <state relative-caret-position="1372">
+          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/LongestValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>
