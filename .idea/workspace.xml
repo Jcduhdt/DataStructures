@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/LongestValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/algorithm/LeedCode/DiameterOfBinaryTree543.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,38 +17,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/StrMatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="999">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/CoinChange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1372">
-              <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/LongestValidParentheses.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/LeedCode/DiameterOfBinaryTree543.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/KnapsackProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
-              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="560">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,7 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zx/linkedlist/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/zx/linkedlist/TestStack.java" />
         <option value="$PROJECT_DIR$/src/com/zx/linkedlist/SingleLinkedListDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zx/linkedlist/DoubleLinkedListDemo.java" />
@@ -121,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/StrMatch.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/CoinChange.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/LongestValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/algorithm/LeedCode/DiameterOfBinaryTree543.java" />
       </list>
     </option>
   </component>
@@ -142,8 +119,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="50" />
-    <option name="y" value="176" />
-    <option name="width" value="979" />
+    <option name="y" value="175" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -155,7 +132,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,12 +163,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
+              <item name="LeedCode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestValidParentheses">
+  <component name="RunManager" selected="Application.DiameterOfBinaryTree543">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dynamic.CoinChange" />
       <module name="DataStructures" />
@@ -250,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloydAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.flloyd.FloydAlgorithm" />
+    <configuration name="DiameterOfBinaryTree543" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.LeedCode.DiameterOfBinaryTree543" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.algorithm.flloyd.*" />
+          <option name="PATTERN" value="com.zx.algorithm.LeedCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiameterOfBinaryTree543" />
         <item itemvalue="Application.LongestValidParentheses" />
         <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.StrMatch" />
         <item itemvalue="Application.HorseChessboard" />
-        <item itemvalue="Application.FloydAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +350,8 @@
       <workItem from="1582523257031" duration="23000" />
       <workItem from="1582547786930" duration="15000" />
       <workItem from="1582983570699" duration="3206000" />
-      <workItem from="1583672173829" duration="2629000" />
+      <workItem from="1583672173829" duration="2722000" />
+      <workItem from="1583842426842" duration="2970000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -620,11 +598,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583673287666</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="leedcode 动态规划 在只含有'(',')'的字符串中寻找有效子串的最大长度，感觉我好菜">
+      <created>1583682265874</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1583682265874</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181828000" />
+    <option name="totallyTimeSpent" value="184891000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,8 +624,8 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73706895" visible="true" weight="0.1494638" />
-      <window_info id="Structure" order="1" sideWeight="0.26293105" side_tool="true" visible="true" weight="0.1494638" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73706895" visible="true" weight="0.15147454" />
+      <window_info id="Structure" order="1" sideWeight="0.26293105" side_tool="true" visible="true" weight="0.15147454" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -663,7 +648,6 @@
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.18838526" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
-      <window_info anchor="right" id="PlantUML" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -674,13 +658,13 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="PlantUML" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="查找算法 线性查找 二分查找(数列有序)" />
     <MESSAGE value="查找算法 插入查找(二分查找的基础上改进) 斐波那契查找" />
     <MESSAGE value="数据结构 哈希表" />
     <MESSAGE value="树 二叉树" />
@@ -705,7 +689,8 @@
     <MESSAGE value="算法 骑士周游问题 使用贪心算法优化" />
     <MESSAGE value="leedcode 正则匹配 动态规划" />
     <MESSAGE value="leedcode 动态规划" />
-    <option name="LAST_COMMIT_MESSAGE" value="leedcode 动态规划" />
+    <MESSAGE value="leedcode 动态规划 在只含有'(',')'的字符串中寻找有效子串的最大长度，感觉我好菜" />
+    <option name="LAST_COMMIT_MESSAGE" value="leedcode 动态规划 在只含有'(',')'的字符串中寻找有效子串的最大长度，感觉我好菜" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -720,23 +705,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../Jdk/lib/src.zip!/java.base/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="1512" selection-start-line="1512" selection-end-line="1512" />
-          <folding>
-            <element signature="e#58534#58535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Jdk/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="4033" selection-start-line="4033" selection-end-line="4033" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../Jdk/lib/src.zip!/java.base/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1090,31 +1058,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/KnapsackProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/StrMatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="1064">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/CoinChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1372">
+        <state relative-caret-position="1876">
           <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/KnapsackProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/LongestValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        <state relative-caret-position="218">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../Jdk/lib/src.zip!/java.base/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1366">
+          <caret line="289" column="13" selection-start-line="289" selection-start-column="13" selection-end-line="289" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/LeedCode/DiameterOfBinaryTree543.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
