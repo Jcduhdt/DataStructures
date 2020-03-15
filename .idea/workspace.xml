@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zx/algorithm/LeedCode/DiameterOfBinaryTree543.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/algorithm/dfs/MaxAreaOfIsland.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,16 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/LeedCode/DiameterOfBinaryTree543.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="308">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dfs/MaxAreaOfIsland.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -47,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zx/linkedlist/TestStack.java" />
         <option value="$PROJECT_DIR$/src/com/zx/linkedlist/SingleLinkedListDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zx/linkedlist/DoubleLinkedListDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zx/linkedlist/Josephu.java" />
@@ -98,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/CoinChange.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/LongestValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/LeedCode/DiameterOfBinaryTree543.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/algorithm/dfs/MaxAreaOfIsland.java" />
       </list>
     </option>
   </component>
@@ -163,7 +170,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="LeedCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dfs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiameterOfBinaryTree543">
+  <component name="RunManager" selected="Application.MaxAreaOfIsland">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dynamic.CoinChange" />
       <module name="DataStructures" />
@@ -240,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HorseChessboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.horse.HorseChessboard" />
+    <configuration name="LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dynamic.LongestValidParentheses" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.algorithm.horse.*" />
+          <option name="PATTERN" value="com.zx.algorithm.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dynamic.LongestValidParentheses" />
+    <configuration name="MaxAreaOfIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dfs.MaxAreaOfIsland" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.algorithm.dynamic.*" />
+          <option name="PATTERN" value="com.zx.algorithm.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxAreaOfIsland" />
         <item itemvalue="Application.DiameterOfBinaryTree543" />
         <item itemvalue="Application.LongestValidParentheses" />
         <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.StrMatch" />
-        <item itemvalue="Application.HorseChessboard" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +358,9 @@
       <workItem from="1582547786930" duration="15000" />
       <workItem from="1582983570699" duration="3206000" />
       <workItem from="1583672173829" duration="2722000" />
-      <workItem from="1583842426842" duration="2970000" />
+      <workItem from="1583842426842" duration="3034000" />
+      <workItem from="1583886758269" duration="461000" />
+      <workItem from="1584279107747" duration="449000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -605,11 +614,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583682265874</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="leedcode 判断是否为有效二叉树">
+      <created>1583848257734</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1583848257734</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184891000" />
+    <option name="totallyTimeSpent" value="185865000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,8 +640,8 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73706895" visible="true" weight="0.15147454" />
-      <window_info id="Structure" order="1" sideWeight="0.26293105" side_tool="true" visible="true" weight="0.15147454" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73345935" visible="true" weight="0.15549597" />
+      <window_info id="Structure" order="1" sideWeight="0.26654065" side_tool="true" visible="true" weight="0.15549597" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -633,7 +649,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3427762" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.25070822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26628897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -665,7 +681,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="查找算法 插入查找(二分查找的基础上改进) 斐波那契查找" />
     <MESSAGE value="数据结构 哈希表" />
     <MESSAGE value="树 二叉树" />
     <MESSAGE value="树 二叉树 增加前中后序查找方法" />
@@ -690,7 +705,8 @@
     <MESSAGE value="leedcode 正则匹配 动态规划" />
     <MESSAGE value="leedcode 动态规划" />
     <MESSAGE value="leedcode 动态规划 在只含有'(',')'的字符串中寻找有效子串的最大长度，感觉我好菜" />
-    <option name="LAST_COMMIT_MESSAGE" value="leedcode 动态规划 在只含有'(',')'的字符串中寻找有效子串的最大长度，感觉我好菜" />
+    <MESSAGE value="leedcode 判断是否为有效二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="leedcode 判断是否为有效二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -705,13 +721,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../Jdk/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../Jdk/lib/src.zip!/java.base/java/lang/StringLatin1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1095,13 +1104,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/LeedCode/DiameterOfBinaryTree543.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="308">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dfs/MaxAreaOfIsland.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
         </state>
       </provider>
     </entry>
