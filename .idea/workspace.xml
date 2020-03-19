@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zx/algorithm/dfs/MaxAreaOfIsland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_01_PreInPosTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_02_PrintBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_03_SuccessorNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_04_SerializeAndReconstructTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_05_PaperFolding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_06_IsBalancedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_07_IsBSTAndCBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_08_CompleteTreeNodeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,22 +25,117 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/LeedCode/DiameterOfBinaryTree543.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_01_PreInPosTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="460">
+              <caret line="193" column="22" lean-forward="true" selection-start-line="193" selection-start-column="22" selection-end-line="193" selection-end-column="22" />
+              <folding>
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#1761#1767#0" expanded="true" />
+                <element signature="e#2361#2367#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_02_PrintBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1709">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding>
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_03_SuccessorNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+              <folding>
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_04_SerializeAndReconstructTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_05_PaperFolding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_06_IsBalancedTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <folding>
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_07_IsBSTAndCBT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <folding>
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_08_CompleteTreeNodeNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dfs/MaxAreaOfIsland.java">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+            <state relative-caret-position="56">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -54,15 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zx/linkedlist/SingleLinkedListDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/zx/linkedlist/DoubleLinkedListDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/zx/linkedlist/Josephu.java" />
-        <option value="$PROJECT_DIR$/src/com/zx/stack/ArrayStackDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/zx/stack/Caculator.java" />
-        <option value="$PROJECT_DIR$/src/com/zx/stack/ReversePolishMultiCalc.java" />
-        <option value="$PROJECT_DIR$/src/com/zx/stack/PolandNotation.java" />
-        <option value="$PROJECT_DIR$/src/com/zx/recursion/RecursionTestTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zx/recursion/RecursionTest.java" />
         <option value="$PROJECT_DIR$/src/com/zx/recursion/MiGong.java" />
         <option value="$PROJECT_DIR$/src/com/zx/recursion/Queen8.java" />
         <option value="$PROJECT_DIR$/src/com/zx/sort/BubbleSort.java" />
@@ -105,6 +198,15 @@
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/LongestValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/LeedCode/DiameterOfBinaryTree543.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dfs/MaxAreaOfIsland.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_01_PreInPosTraversal.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_02_PrintBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_03_SuccessorNode.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_04_SerializeAndReconstructTree.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_05_PaperFolding.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_06_IsBalancedTree.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_07_IsBSTAndCBT.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_08_CompleteTreeNodeNumber.java" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -139,6 +241,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,21 +265,12 @@
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="dfs" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +280,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/zx/stack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/zx/tree/newcoder" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -205,6 +299,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\JavaProject\DataStructures\src\com\zx\tree\newcoder" />
       <recent name="D:\Java\JavaProject\DataStructures\src\com\zx\stack" />
     </key>
   </component>
@@ -220,7 +315,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxAreaOfIsland">
+  <component name="RunManager" selected="Application.Code_02_PrintBinaryTree">
+    <configuration name="Code_02_PrintBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.tree.newcoder.Code_02_PrintBinaryTree" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.tree.newcoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dynamic.CoinChange" />
       <module name="DataStructures" />
@@ -273,26 +381,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dynamic.StrMatch" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.algorithm.dynamic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_02_PrintBinaryTree" />
         <item itemvalue="Application.MaxAreaOfIsland" />
         <item itemvalue="Application.DiameterOfBinaryTree543" />
         <item itemvalue="Application.LongestValidParentheses" />
         <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.StrMatch" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +455,8 @@
       <workItem from="1583672173829" duration="2722000" />
       <workItem from="1583842426842" duration="3034000" />
       <workItem from="1583886758269" duration="461000" />
-      <workItem from="1584279107747" duration="449000" />
+      <workItem from="1584279107747" duration="1258000" />
+      <workItem from="1584608997575" duration="4532000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -621,11 +717,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583848257734</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="leedcode 深度遍历，沉岛思想 主要还是递归这东西，没往这方面想">
+      <created>1584279886640</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1584279886640</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185865000" />
+    <option name="totallyTimeSpent" value="191206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,8 +743,8 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73345935" visible="true" weight="0.15549597" />
-      <window_info id="Structure" order="1" sideWeight="0.26654065" side_tool="true" visible="true" weight="0.15549597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7332186" visible="true" weight="0.2272118" />
+      <window_info id="Structure" order="1" sideWeight="0.26678142" side_tool="true" visible="true" weight="0.2272118" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -649,7 +752,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.25070822" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.17705382" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26628897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -681,7 +784,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数据结构 哈希表" />
     <MESSAGE value="树 二叉树" />
     <MESSAGE value="树 二叉树 增加前中后序查找方法" />
     <MESSAGE value="树 二叉树 增加简单的删除节点方法" />
@@ -706,7 +808,8 @@
     <MESSAGE value="leedcode 动态规划" />
     <MESSAGE value="leedcode 动态规划 在只含有'(',')'的字符串中寻找有效子串的最大长度，感觉我好菜" />
     <MESSAGE value="leedcode 判断是否为有效二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="leedcode 判断是否为有效二叉树" />
+    <MESSAGE value="leedcode 深度遍历，沉岛思想 主要还是递归这东西，没往这方面想" />
+    <option name="LAST_COMMIT_MESSAGE" value="leedcode 深度遍历，沉岛思想 主要还是递归这东西，没往这方面想" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,68 +824,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../Jdk/lib/src.zip!/java.base/java/lang/StringLatin1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="781" selection-start-line="781" selection-end-line="781" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Jdk/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="1887" selection-start-line="1887" selection-end-line="1887" />
-          <folding>
-            <element signature="e#24839#24840#0" expanded="true" />
-            <element signature="e#24885#24886#0" expanded="true" />
-            <element signature="e#132657#132658#0" expanded="true" />
-            <element signature="e#132711#132712#0" expanded="true" />
-            <element signature="e#132795#132796#0" expanded="true" />
-            <element signature="e#132852#132853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/stack/ReversePolishMultiCalc.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zx/recursion/RecursionTestTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zx/stack/ArrayStackDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="109" selection-start-line="54" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/stack/Caculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/stack/PolandNotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/recursion/RecursionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/recursion/MiGong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/recursion/Queen8.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -894,13 +935,6 @@
             <element signature="e#666#667#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1102,9 +1136,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dfs/MaxAreaOfIsland.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/LeedCode/DiameterOfBinaryTree543.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state>
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1112,10 +1153,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dfs/MaxAreaOfIsland.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        <state relative-caret-position="-26">
+          <caret line="175" column="6" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_01_PreInPosTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="193" column="22" lean-forward="true" selection-start-line="193" selection-start-column="22" selection-end-line="193" selection-end-column="22" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#1761#1767#0" expanded="true" />
+            <element signature="e#2361#2367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_02_PrintBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1709">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_03_SuccessorNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_04_SerializeAndReconstructTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_05_PaperFolding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_06_IsBalancedTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_07_IsBSTAndCBT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_08_CompleteTreeNodeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
