@@ -1,4 +1,4 @@
-package com.zx.tree.newcoder;
+package com.zx.newcoder.base04;
 
 /**
  * 折纸问题

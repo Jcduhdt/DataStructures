@@ -1,4 +1,4 @@
-package com.zx.tree.newcoder;
+package com.zx.newcoder.base04;
 
 /**
  * 判断一棵二叉树是否是平衡二叉树
