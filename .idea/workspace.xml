@@ -1,81 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_00_BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_01_InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_02_SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_03_HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_04_QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_05_MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_06_BucketSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_07_RadixSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_08_NetherlandsFlag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_09_Comparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_10_GetAllNotIncluded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_11_MaxGap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_12_SmallSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base02/Code_01_KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base02/Code_02_KMP_ShortestHaveTwice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base02/Code_03_KMP_T1SubtreeEqualsT2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base02/Code_04_Manacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base02/Code_05_Manacher_ShortestEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base02/Code_06_BFPRT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_01_Array_To_Stack_Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_02_GetMinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_03_StackAndQueueConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_04_DogCatQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_05_RotateMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_06_PrintMatrixSpiralOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_07_ReverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_08_ZigZagPrintMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_09_FindNumInSortedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_10_PrintCommonPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_11_IsPalindromeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_12_SmallerEqualBigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_13_CopyListWithRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_14_FindFirstIntersectNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_15_FindOneLessValueIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base05/Code_01_HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base05/Code_02_RandomPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base05/Code_03_Islands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base05/Code_04_UnionFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base06/Code_01_BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base06/Code_02_DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base06/Code_03_TopologySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base06/Code_04_Kruskal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base06/Code_05_Prim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base06/Code_06_Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base06/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base06/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base06/GraphGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base06/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base07/Code_01_TrieTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base07/Code_02_Less_Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base07/Code_03_IPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base07/Code_04_MadianQuick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base07/Code_05_LowestLexicography.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base07/Code_06_BestArrange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_01_Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_02_Hanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_03_Print_All_Subsquences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_04_Print_All_Permutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_05_Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_06_ReverseStackUsingRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_07_MinPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_08_Money_Problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_09_Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base08/FaceBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base08/Test.java" afterDir="false" />
+    <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="牛客 左神">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_01_PreInPosTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_01_PreInPosTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_02_PrintBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_02_PrintBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_03_SuccessorNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_03_SuccessorNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_04_SerializeAndReconstructTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_04_SerializeAndReconstructTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_05_PaperFolding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_05_PaperFolding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_06_IsBalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_06_IsBalancedTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_07_IsBSTAndCBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_07_IsBSTAndCBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zx/tree/newcoder/Code_08_CompleteTreeNodeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_08_CompleteTreeNodeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_08_CompleteTreeNodeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_08_CompleteTreeNodeNumber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,12 +20,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_03_Print_All_Subsquences.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="168">
               <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_05_Cow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="588">
               <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
             </state>
           </provider>
@@ -126,23 +52,64 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
               <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_08_Money_Problem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dac/Hanoitower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_08_Money_Problem.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_02_PrintBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-              <folding>
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_01_PreInPosTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_03_SuccessorNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_08_CompleteTreeNodeNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -163,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zx/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zx/tree/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/com/zx/huffmantree/HuffmanTree.java" />
         <option value="$PROJECT_DIR$/src/com/zx/huffmancode/HuffmanCode.java" />
@@ -172,7 +138,6 @@
         <option value="$PROJECT_DIR$/src/com/zx/graph/Graph.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/binarysearchnorecursion/BinarySearchNoRecur.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dac/HanoitowerTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zx/algorithm/dac/Hanoitower.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/KnapsackProblem.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/kmp/KMPAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/kmp/ViolenceMatch.java" />
@@ -214,6 +179,8 @@
         <option value="$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_05_Cow.java" />
         <option value="$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_07_MinPath.java" />
         <option value="$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_08_Money_Problem.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/algorithm/dac/Hanoitower.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_08_CompleteTreeNodeNumber.java" />
       </list>
     </option>
   </component>
@@ -247,7 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,6 +238,13 @@
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
               <item name="newcoder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -279,13 +253,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
               <item name="newcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="base08" type="462c0819:PsiDirectoryNode" />
+              <item name="base04" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -478,7 +452,10 @@
       <workItem from="1584709770767" duration="915000" />
       <workItem from="1584747154761" duration="34000" />
       <workItem from="1584793801116" duration="2011000" />
-      <workItem from="1584841068357" duration="7888000" />
+      <workItem from="1584841068357" duration="7971000" />
+      <workItem from="1584877315353" duration="47000" />
+      <workItem from="1585063575236" duration="181000" />
+      <workItem from="1585230083355" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -760,11 +737,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584795793279</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="牛客 左神">
+      <created>1584852428931</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1584852428931</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202150000" />
+    <option name="totallyTimeSpent" value="203080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,15 +763,15 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72804534" visible="true" weight="0.21447721" />
-      <window_info id="Structure" order="1" sideWeight="0.2719547" side_tool="true" visible="true" weight="0.21447721" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7223796" visible="true" weight="0.21179625" />
+      <window_info id="Structure" order="1" sideWeight="0.2776204" side_tool="true" visible="true" weight="0.21179625" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.42917848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26628897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -820,7 +804,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="树 二叉树 增加简单的删除节点方法" />
     <MESSAGE value="树 二叉树 顺序二叉树 线索化二叉树" />
     <MESSAGE value="树结构的应用 堆排序 大顶堆 小顶堆" />
     <MESSAGE value="树结构的应用 哈夫曼树 哈夫曼编码" />
@@ -845,7 +828,8 @@
     <MESSAGE value="leedcode 深度遍历，沉岛思想 主要还是递归这东西，没往这方面想" />
     <MESSAGE value="左神教的算法 关于树这一节的" />
     <MESSAGE value="水壶问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="水壶问题" />
+    <MESSAGE value="牛客 左神" />
+    <option name="LAST_COMMIT_MESSAGE" value="牛客 左神" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1108,27 +1092,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_01_PreInPosTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_02_PrintBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_03_SuccessorNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_04_SerializeAndReconstructTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1160,13 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_08_CompleteTreeNodeNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_01_Array_To_Stack_Queue.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1181,13 +1137,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base06/Code_01_BFS.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dac/Hanoitower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_01_Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1205,19 +1154,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_03_Print_All_Subsquences.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="168">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_05_Cow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="588">
           <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
@@ -1233,21 +1180,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_08_Money_Problem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="700">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dac/Hanoitower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_02_PrintBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_01_PreInPosTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_03_SuccessorNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base04/Code_08_CompleteTreeNodeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
