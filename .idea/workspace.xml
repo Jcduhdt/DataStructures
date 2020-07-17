@@ -2,61 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9eb1ba-c6fa-4e69-b7d2-4a47889ea0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_01/Code_01_GetMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_01/Code_02_HanoiProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_01/Code_03_LongestPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_01/Code_05_IsBalancedTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_01/Code_06_T1ContainsT2Topology.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_01/Code_07_ExpressionCompute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_01/Code_08_MaxDistanceInTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_02/Code_01_LeastRecentlyUsedCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_02/Code_02_Building_Outline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_02/Code_03_FindNewTypeChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_02/Code_04_TrieTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_02/Code_05_EnglishExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_02/Code_06_ChineseExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_02/Code_07_ThrowChessPiecesProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_03/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_03/AbstractBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_03/AbstractSelfBalancingBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_03/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_03/Code_01_MorrisTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_03/Code_02_SkipList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_03/RedBlackTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_04/Code_01_Building_Outline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_04/Code_02_LRU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_04/Code_03_LFU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_04/Code_04_BiggestSubBSTInTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_04/Code_05_LongestSumSubArrayLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_04/Code_06_Most_EOR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_04/Code_07_ExpressionCompute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_05/Code_01_IsBSTAndCBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_05/Code_02_IsBalancedTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_05/Code_03_MaxDistanceInTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_05/Code_04_MaxHappy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_05/Code_05_Max_EOR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_05/Code_06_CompleteTreeNodeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_06/Code_01_CoinsWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_06/Code_02_CardsInLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_06/Code_03_RegularExpressionMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_06/Code_04_LongestSumSubArrayLengthInPositiveArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_06/Code_05_LongestSubarrayLessSumAwesomeSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_06/Code_06_JosephusProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_07/Code_01_MinPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_07/Code_02_LIS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_07/Code_03_LCSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_07/Code_04_LCSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_07/Code_05_EditCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_07/Code_06_PalindromeMinCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_07/Code_07_StringCross.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_07/Code_08_ParenthesesProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_08/Code_01_TopKSumCrossTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_08/Code_02_MaxSubMatrixSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_08/Code_03_MaxOneBorderSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_08/Code_04_FibonacciProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_08/Code_05_LongestNoRepeatSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_08/Code_06_ShuffleProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zx/tree/BuildTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zx/newcoder/base02/Code_01_KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zx/newcoder/base02/Code_01_KMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zx/tree/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zx/tree/HeapSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,15 +19,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_04/Code_03_LFU.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/sort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="209" column="29" selection-start-line="209" selection-start-column="29" selection-end-line="209" selection-end-column="29" />
-              <folding>
-                <element signature="e#1238#1239#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2175">
+              <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/sort/RadixSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zx/sort/ShellSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="98" column="55" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -96,7 +59,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cap</find>
+      <find>buildTreeByPreIn2</find>
     </findStrings>
+    <replaceStrings>
+      <replace>buildTreeByInPost</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,9 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zx/graph/Graph.java" />
-        <option value="$PROJECT_DIR$/src/com/zx/algorithm/binarysearchnorecursion/BinarySearchNoRecur.java" />
-        <option value="$PROJECT_DIR$/src/com/zx/algorithm/dac/HanoitowerTest.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/dynamic/KnapsackProblem.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/kmp/KMPAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/com/zx/algorithm/kmp/ViolenceMatch.java" />
@@ -139,7 +103,6 @@
         <option value="$PROJECT_DIR$/src/com/zx/newcoder/base07/Code_05_LowestLexicography.java" />
         <option value="$PROJECT_DIR$/src/com/zx/newcoder/base03/Code_01_Array_To_Stack_Queue.java" />
         <option value="$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_00_BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/com/zx/newcoder/base02/Code_01_KMP.java" />
         <option value="$PROJECT_DIR$/src/com/zx/newcoder/base05/Code_01_HashMap.java" />
         <option value="$PROJECT_DIR$/src/com/zx/newcoder/base06/Code_01_BFS.java" />
         <option value="$PROJECT_DIR$/src/com/zx/newcoder/base08/Code_01_Factorial.java" />
@@ -155,6 +118,10 @@
         <option value="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_05/Code_05_Max_EOR.java" />
         <option value="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_07/Code_02_LIS.java" />
         <option value="$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_04/Code_03_LFU.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/tree/BuildTree.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/tree/MirrorTree.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/newcoder/base02/Code_01_KMP.java" />
+        <option value="$PROJECT_DIR$/src/com/zx/tree/HeapSort.java" />
       </list>
     </option>
   </component>
@@ -174,10 +141,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="787" />
-    <option name="y" value="38" />
-    <option name="width" value="1122" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="270" />
+    <option name="y" value="55" />
+    <option name="width" value="1180" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -185,10 +152,11 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,21 +180,21 @@
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="newcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="newcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced_class_04" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,13 +242,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code_02_PrintBinaryTree">
+  <component name="RunManager" selected="Application.HeapSort">
+    <configuration name="BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.tree.BuildTree" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code_01_KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.nowcoder.base02.Code_01_KMP" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.nowcoder.base02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Code_02_PrintBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.newcoder.base04.Code_02_PrintBinaryTree" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.nowcoder.base04.Code_02_PrintBinaryTree" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.newcoder.base04.*" />
+          <option name="PATTERN" value="com.zx.nowcoder.base04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,38 +282,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dynamic.CoinChange" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.tree.HeapSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.algorithm.dynamic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiameterOfBinaryTree543" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.LeedCode.DiameterOfBinaryTree543" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.algorithm.LeedCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.algorithm.dynamic.LongestValidParentheses" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.algorithm.dynamic.*" />
+          <option name="PATTERN" value="com.zx.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,11 +310,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.Code_01_KMP" />
+        <item itemvalue="Application.BuildTree" />
         <item itemvalue="Application.Code_02_PrintBinaryTree" />
         <item itemvalue="Application.MaxAreaOfIsland" />
-        <item itemvalue="Application.DiameterOfBinaryTree543" />
-        <item itemvalue="Application.LongestValidParentheses" />
-        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +394,20 @@
       <workItem from="1585317571375" duration="622000" />
       <workItem from="1585388147871" duration="893000" />
       <workItem from="1585637423262" duration="1320000" />
-      <workItem from="1586074321964" duration="3190000" />
+      <workItem from="1586074321964" duration="3347000" />
+      <workItem from="1586077976740" duration="635000" />
+      <workItem from="1587186388747" duration="477000" />
+      <workItem from="1587187883650" duration="3140000" />
+      <workItem from="1587304913177" duration="1093000" />
+      <workItem from="1587344955657" duration="10000" />
+      <workItem from="1587613337768" duration="956000" />
+      <workItem from="1587706641628" duration="33000" />
+      <workItem from="1587707746881" duration="241000" />
+      <workItem from="1590459538991" duration="3548000" />
+      <workItem from="1593331226692" duration="1581000" />
+      <workItem from="1593333547021" duration="699000" />
+      <workItem from="1594179882633" duration="1902000" />
+      <workItem from="1594189624215" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1580820062116</created>
@@ -722,11 +703,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585230753490</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="算法进阶">
+      <created>1586077654833</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1586077654833</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209564000" />
+    <option name="totallyTimeSpent" value="224041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -738,11 +726,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="630" y="31" width="897" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7145242" visible="true" weight="0.035756852" />
-      <window_info id="Structure" order="1" sideWeight="0.2854758" side_tool="true" visible="true" weight="0.035756852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.688826" visible="true" weight="0.21380697" />
+      <window_info id="Structure" order="1" sideWeight="0.31117398" side_tool="true" visible="true" weight="0.21380697" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -750,8 +737,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.42917848" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26628897" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5958445" weight="0.36209336" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.22681883" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -759,8 +746,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.49008498" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="10" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.14550643" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4041555" side_tool="true" weight="0.417256" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Run with VisualVM" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.18838526" />
@@ -782,7 +769,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="树结构的应用 堆排序 大顶堆 小顶堆" />
     <MESSAGE value="树结构的应用 哈夫曼树 哈夫曼编码" />
     <MESSAGE value="树结构的应用 哈夫曼编码优化 解压" />
     <MESSAGE value="树结构的应用 使用哈夫曼编码对文件进行压缩与解压" />
@@ -807,7 +793,8 @@
     <MESSAGE value="水壶问题" />
     <MESSAGE value="牛客 左神" />
     <MESSAGE value="完全二叉树 节点数更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="完全二叉树 节点数更新" />
+    <MESSAGE value="算法进阶" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法进阶" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -818,69 +805,22 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zx/tree/BuildTree.java</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zx/newcoder/base02/Code_01_KMP.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/CoinChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1876">
-          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/KnapsackProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dynamic/LongestValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Jdk/lib/src.zip!/java.base/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1366">
-          <caret line="289" column="13" selection-start-line="289" selection-start-column="13" selection-end-line="289" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/dfs/MaxAreaOfIsland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/LeedCode/DiameterOfBinaryTree543.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="175" column="6" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/algorithm/prim/PrimAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2856">
@@ -964,9 +904,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base01/Code_00_BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base02/Code_01_KMP.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base05/Code_01_HashMap.java">
@@ -1159,14 +1096,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/MirrorTree.java" />
     <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/advanced_class_04/Code_03_LFU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="209" column="29" selection-start-line="209" selection-start-column="29" selection-end-line="209" selection-end-column="29" />
-          <folding>
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="5400">
+          <caret line="218" column="43" selection-start-line="218" selection-start-column="43" selection-end-line="218" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/ArrBinaryTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/BuildTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/newcoder/base02/Code_01_KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/sort/RadixSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zx/sort/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="98" column="55" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
         </state>
       </provider>
     </entry>

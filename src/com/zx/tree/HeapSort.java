@@ -13,16 +13,16 @@ import java.util.Arrays;
  */
 public class HeapSort {
     public static void main(String[] args) {
-        int arr[] = {4,6,8,5,9};
-        heapSort(arr);
-        /*int[] arr = new int[80000];
+//        int arr[] = {4,6,8,5,9};
+//        heapSort(arr);
+        int[] arr = new int[80000];
         for (int i = 0; i < 80000; i++) {
             arr[i] = (int)(Math.random()*1000000);
         }
         long startTime = System.currentTimeMillis();
         heapSort(arr);
         long endTime = System.currentTimeMillis();
-        System.out.println("堆排序耗时：" + (endTime - startTime) + "毫秒");*/
+        System.out.println("堆排序耗时：" + (endTime - startTime) + "毫秒");
     }
 
     //编写一个堆排序的方法
